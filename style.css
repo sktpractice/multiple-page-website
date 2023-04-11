@@ -1,3 +1,44 @@
-p{
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    background-color: #1A1244;
+}
+.logo{
+    padding: 0 5px;
+}
+.logo h2{
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+.logo span{
+    color: rgb(220, 186, 186);
+}
+.logo p{
+    color: rgb(255, 255, 127);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: red;
+    background-color: black;
+    border-radius: 5px;
 }
