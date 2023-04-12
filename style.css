@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     padding: 10px 150px;
     background-color: #1A1244;
+    border-bottom: 4px solid #401E63;
 }
 .logo{
     padding: 0 5px;
@@ -41,4 +42,38 @@ nav ul li a:hover{
     color: red;
     background-color: black;
     border-radius: 5px;
+}
+
+/* Hero Are Strad */
+header{
+    background-image: url(./img/website\ banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box input{
+    height: 40px;
+    width: 350px;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.search-icon i{
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.search-icon i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
 }
